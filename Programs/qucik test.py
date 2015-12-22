@@ -1,7 +1,4 @@
-x = 34
+import random
 
-if x == 34:
-    print("lmao")
-
-elif x == 34:
-    print("get underscore rekt")
+x = random.
+print(x)
