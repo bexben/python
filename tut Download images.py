@@ -17,4 +17,14 @@ def downloadImage(url):
 
     print("Done!")
 
+    another = input("Would you like to download another image? (Y/N): ")
+    if another is 'y':
+        downloadImage(url = input("Input URL here: "))
+
 downloadImage(url = input("Input URL here: "))
+
+
+
+
+
+
