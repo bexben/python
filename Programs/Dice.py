@@ -9,7 +9,8 @@ def dice():
     print(total)
 
 
-for _ in range(1000):
+for _ in range(1001):
     dice()
+
 
 
