@@ -1,20 +1,26 @@
-from time import time, sleep, asctime
+from time import sleep, asctime
 from tabulate import tabulate
 
-x = 0
+#Last updated by commit date; April 14
 
-def timeming(n):
 
-    global x
-    x += 1
+operatingTime = 0
 
-    table = [[n, x]]
+#Creating txt record
+fw = open('')
+
+def timing(n):
+
+    global operatingTime
+    operatingTime += 1
+
+    table = [[n, operatingTime]]
     print(tabulate(table))
 
     sleep(1)
 
-x = 1
+operatingTime = 1
 
-for x in range(0,10):
-    timeming(asctime())
+for operatingTime in range(0,10):
+    timing(asctime())
 

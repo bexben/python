@@ -1,6 +1,7 @@
-from time import time, sleep
+fw = open('testing.txt', 'w')
 
-x = 1
-
-
-print(x)
+def test():
+    n = 1
+    open('testing.txt', 'a')
+    fw.write(n)
+    fw.close()
